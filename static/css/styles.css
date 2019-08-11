@@ -303,4 +303,26 @@ img {
   font-size: 34px;
   font-weight: 700;
 }
+
+.centerText {
+  text-align: center;
+}
+
+.cuadroNewFoto {
+  margin: 10px;
+  border: solid;
+}
+
+.fotoNew {
+  width: 100%;
+}
+
+.desFotonew {
+  font-size: .5rem;
+}
+
+.titFotoNew {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 /*# sourceMappingURL=styles.css.map */
