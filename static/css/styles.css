@@ -449,4 +449,12 @@ footer div > div > div > div {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+
+#work-jumbotron {
+  background: green;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://demos.hogash.com/agency-html/images/hero_03.jpg");
+}
 /*# sourceMappingURL=styles.css.map */
