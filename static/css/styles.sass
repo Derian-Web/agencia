@@ -3,9 +3,33 @@
 body 
     font-family: 'Montserrat', sans-serif
 header
-    top: 10%
+    top: -5%
     width: 100%
     background: fixed
+.titulo-startup
+    font-size: 40px
+    font-weight: 700
+    position: relative
+    top: 80px
+    margin-left: 50px
+
+header .menu
+    margin: 40px 0
+    text-align: right
+    
+  
+  
+header .menu a
+    margin: 0 15px
+    color: #fff
+    padding-bottom: 9px
+    display: inline-block
+    text-decoration: none
+    font-size: 1em
+    font-weight: 700
+
+header .menu a:hover
+    color: #afafaf
 #home-jumbotron
     background: green
     background-image: url('https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
@@ -40,7 +64,7 @@ header
     padding: 0px 50px 0px 50px
 .salmon-gradient
     padding: 4rem
-    background: linear-gradient(to right, #FF512F, #DD2476)
+    background: radial-gradient(circle at 1.98% 13.04%, #FF512F, transparent 100%), radial-gradient(circle at 98.02% 28.95%, #DD2476, transparent 100%), radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%)
 
 .contenidoIntro
     padding: 60px 90px 130px 90px
@@ -53,9 +77,25 @@ header
     align-items: center
 
 .introInfo
-    padding-left: 100px
+    padding: 60px 90px 130px 90px
 #introTexto
     padding-bottom: 50px
+    font-family: 'Gilda Display', serif
+    font-size: 1.5rem
+    font-weight: 100
+.services
+    display: flex
+    justify-content: space-between
+    margin: 0
+    padding: 0
+    span
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-size: .8rem
+        font-weight: 600
+        i 
+            font-size: 2rem
 
 
 
@@ -73,14 +113,17 @@ img
     bottom: 10px
     right: 10px
     left: 10px
+    transition: background .5s
     &:hover
         background: rgba(0, 0, 0, .25)
+        
         .ic-img
             color: rgba(255, 255, 255, 1)
 
 .ic-img
     font-size: 4rem
     color: rgba(255, 255, 255, 0)
+    transition: color .5s
 
 .ag-vertical-separator 
     width: 1px
@@ -126,9 +169,6 @@ img
     font-size: 34px
     font-weight: 700
 
-.center
-    justify-content: center
-    padding-bottom: 80px
 
 .ancho-img
     width: 100px
@@ -225,7 +265,7 @@ img
     text-align: center
 .cuadroNewFoto
     margin: 10px
-    border: solid 
+
 .fotoNew
     width: 100%
 .desFotonew
@@ -233,3 +273,42 @@ img
 .titFotoNew
     font-size: 1.5rem
     font-weight: 500
+
+.newnew
+    font-size: .8rem
+    font-weight: 600
+    color: rgba(10, 10, 10, 0.4)
+.latest
+    font-size: 2rem
+    font-weight: 700
+#new
+    padding: 100px 50px
+#startProject
+    padding: 100px 50px
+    background: #f8f8f8
+.lets
+    font-size: 2rem
+    font-weight: 600
+.get
+    font-family: 'Gilda Display', serif
+    color: rgba(10, 10, 10, 0.4)
+    font-weight: 600
+    font-size: 1.1rem
+    padding-top: 20px
+footer
+    padding: 100px 50px
+    background: #000
+    div>div>div>div
+        color: #565656
+        font-family: Arial, Helvetica, sans-serif
+.center2
+    display: flex
+    align-items: center 
+.white
+    color: #fff
+.iconos
+    color: #565656
+    font-size: 1.5rem
+.right
+    display: flex
+    justify-content: flex-end
